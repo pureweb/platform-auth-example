@@ -1,3 +1,5 @@
+![image info](./images/pureweb.png)
+
 # Acquiring your PureWeb platform credentials (example framework)
 
 This project provides an example framework for building a single-page application (SPA) to externally authenticate users using the [Auth0](https://auth0.com/) platform. The example framework uses the [PassportJS](http://www.passportjs.org/) middleware and [Express](https://expressjs.com/) web application framework. Once a user authenticates through the SPA, you can use your PureWeb project’s **ClientID** and **Client Secret** to request credentials for access to the PureWeb platform. You can then use the credentials to submit launch requests and initiate agents on the PureWeb platform.
