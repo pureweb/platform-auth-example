@@ -1,0 +1,30 @@
+{
+  "name": "platform-auth-example-auth0",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "ui": "browser-sync start --config bs-config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "@pureweb/platform-admin-sdk": "^3.3.0",
+    "@types/inquirer": "^7.3.1",
+    "chalk": "^4.1.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "inquirer": "^7.3.3",
+    "passport": "^0.4.1",
+    "passport-auth0": "^1.4.0",
+    "pug": "^3.0.0"
+  }
+}

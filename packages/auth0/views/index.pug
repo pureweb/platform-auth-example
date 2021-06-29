@@ -1,0 +1,18 @@
+extends layout
+
+block layout-content
+  div.View.WelcomeView
+    h1.Banner PureWeb Authentication Tutorial
+    div.Message
+      div.Title
+        h1 External PureWeb Platform Authentication
+      span.Details Login to Obtain PureWeb Platform Credentials
+    div.NavButtons
+      if isAuthenticated
+        a(href="/user")
+          div.NavButton User Profile
+        a(href="/credentials")
+          div.NavButton PureWeb Credentials
+      else
+        a(href="/login")
+          div.NavButton Log in
