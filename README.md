@@ -36,7 +36,7 @@ Include `packages/.env` to specify the file’s location.
 * `AUTH0_CLIENT_ID`
 * `AUTH0_DOMAIN`
 * `AUTH0_CLIENT_SECRET`
-4) Also in the `.env` file you copied earlier, set `Allowable Callback URLs` to:
+4) In the Auth0 **Settings** tab, set `Allowable Callback URLs` to:
 `http://localhost:3000/callback, http://localhost:8000/callback`
 5) Finally, set `Allowed Logout URLs` to:
 `http://localhost:3000/, http://localhost:8000/`
