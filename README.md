@@ -74,3 +74,7 @@ You should now be able to create an account and sign in. You can either create a
 Once you successfully log in, click the **PureWeb Credentials** button to acquire credentials to the PureWeb platform. 
 
 To view your user account information from Auth0, click the **User Profile** button.
+
+## Attribution
+
+The Auth0 and express portions of this example borrow heavily from [auth0-blog/wab-portal-express](https://github.com/auth0-blog/wab-portal-express)

@@ -10,7 +10,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "devDependencies": {
     "browser-sync": "^2.26.12",
     "nodemon": "^2.0.4"
