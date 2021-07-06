@@ -19,12 +19,10 @@ A launch request prompts the PureWeb platform to initialize a game stream and co
 
 ### Configure environment variables
 
-The environment variables required to configure this example framework are stored in an `.env` file. 
-
-Include `packages/.env` to specify the file’s location. 
+The environment variables required to configure this example framework are stored in the `packages/.env` file. 
 
 **To configure environment variables:**
-1) Copy the example file provided, `.env-example`, to a new `.env` file. 
+1) Copy the example file provided, `packages/.env-example`, to a new `packages/.env` file. 
 2) Add the account configuration for your Auth0 account to the `.env` file; see [Set up an Auth0 account](#set-up-an-auth0-account).
 3) Add the account configuration for your PureWeb account to the `.env` file; see [Set up a PureWeb account](#set-up-a-pureweb-account). 
 
