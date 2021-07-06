@@ -1,0 +1,12 @@
+{
+  "name": "platform-auth-example",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/auth0"
+  ],
+  "scripts": {
+    "dev": "yarn --cwd packages/auth0/ dev",
+    "ui": "yarn --cwd packages/auth0/ ui"
+  }
+}
